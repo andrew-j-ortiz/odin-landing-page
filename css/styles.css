@@ -18,6 +18,11 @@ body {
     font-size: 18px;
 }
 
+h2 {
+  font-size: 36px;
+  color: #1F2937;
+}
+
 /* header */
 
 .header {
@@ -85,6 +90,46 @@ body {
     max-width: 100%;
 }
 
+/* examples */
+
+.examples {
+  background-color: #F9FAF8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+.examples-header {
+  padding: 45px 0;
+}
+
+.examples-header > h2 {
+  color: #1F2937;
+}
+
+.examples-container {
+  display: flex;
+  gap: 35px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.example-box {
+  text-align: center;
+  width: 160px;
+}
+
+.example-box > p {
+  color: #1F2937;
+}
+
+.example-image {
+  border: solid 3px #3882F6;
+  border-radius: 18px;
+  height: 150px;
+  width: 150px;
+}
 
 
 /* web fonts */
