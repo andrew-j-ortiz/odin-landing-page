@@ -18,6 +18,16 @@ body {
     font-size: 18px;
 }
 
+.button-2 {
+    background-color: #3882F6;
+    border: solid 2px white;
+    color: #F9FAF8;
+    width: 130px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
 h2 {
   font-size: 36px;
   color: #1F2937;
@@ -160,6 +170,49 @@ h3 {
 }
 
 
+/* call to action */
+
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+
+.call-to-action-box {
+  height: 160px;
+  width: 75%;
+  background-color: #3882F6;
+  border-radius: 8px;
+}
+
+.call-to-action-box {
+  display: flex;
+  align-items: center;
+}
+
+.call-to-action-container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+}
+
+.cta-left {
+  flex: 2;
+  padding-left: 100px;
+}
+
+.cta-left > p {
+  font-size: 1.2rem;
+}
+
+.cta-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: row;
+}
 
 
 
