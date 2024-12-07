@@ -214,6 +214,18 @@ h3 {
   flex-direction: row;
 }
 
+/* footer */
+
+.footer {
+  background-color: #1F2937;
+  padding: 40px;
+}
+
+.footer > p {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
 
 
 
